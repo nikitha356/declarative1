@@ -1,0 +1,40 @@
+pipeline
+{
+ agent any
+ stages
+ {
+   stage('commit')
+   {
+   steps
+   {
+     echo "commit proj"
+   }
+}
+stage('build')
+   {
+   steps
+   {
+     echo "build proj"
+   }
+}
+stage('deploy')
+   {
+   steps
+   {
+     echo "deploy proj"
+   }
+}
+stage('test')
+   {
+   steps
+   {
+     echo "test proj"
+   }
+}
+stage('release')
+   {
+   steps
+   {
+     echo "release proj"
+   }
+}
